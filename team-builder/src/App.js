@@ -42,12 +42,6 @@ function App() {
     });
   };
 
- 
-
-  // const handleChange = event => {
-  //   setTeamList({...teamMembersList, [event.target.name]: event.target.value});
-  // };
-
   const handleSubmit = event => {
     event.preventDefault();
 
@@ -68,7 +62,6 @@ function App() {
           onnamechange={onNameChange}
           onrolechange={onRoleChange}
           onemailchange={onEmailChange}
-          // handlechange={handleChange}
           handlesubmit={handleSubmit}
           newmemberform={newMemberForm}
           teamlist={teamList}

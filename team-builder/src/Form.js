@@ -5,7 +5,8 @@ function Form (props) {
   console.log(props);
   // const [handleSubmit, handleChange, teamList] = props;
   return (
-    <div>
+    <div className="form">
+      <h1>Team Members</h1>
       <form onSubmit={event => props.handlesubmit(event)}>
         <label>
           Name:
