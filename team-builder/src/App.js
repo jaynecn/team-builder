@@ -73,15 +73,16 @@ function App() {
           newmemberform={newMemberForm}
           teamlist={teamList}
         />
+        <div className="devs">
         {
           teamList.map((info) => (
-            <div key={info.id}>
+            <div className="team-member" key={info.id}>
               <h1 >{info.name}</h1>
               <h2>{info.role}</h2> <h3>Email: {info.email}</h3>
             </div>
           ))
         }
-          
+        </div>  
     </div>
   );
 }

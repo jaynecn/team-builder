@@ -1,4 +1,7 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   text-align: center;
 }
 
@@ -30,4 +33,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.devs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.team-member {
+  background-color: lightgrey;
+  border: 1px dashed black;
+  padding: 10px 0px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+
+.team-member h2{
+  padding: 0px 5px;
+}
+
+.team-member h3{
+  padding: 0px 10px;
 }
